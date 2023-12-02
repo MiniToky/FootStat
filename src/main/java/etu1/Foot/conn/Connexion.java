@@ -9,9 +9,9 @@ import java.sql.SQLException;
 @Service
 public class Connexion {
     public Connection connect() {
-        String url = "jdbc:postgresql://localhost:5432/foot";
+        String url = "jdbc:postgresql://monorail.proxy.rlwy.net:35982/railway";
         String user = "postgres";
-        String password = "root";
+        String password = "f3Ac2C5E1eCC6G224gEcF46e45ae21eA";
 
         Connection conn = null;
         try {
